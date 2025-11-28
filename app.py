@@ -555,11 +555,11 @@ if menu == "1. บันทึกจับกุม":
         
         img_col1, img_col2 = st.columns(2)
         img1 = img_col1.file_uploader("รูปที่ 1 (หน้าตรง)", type=['jpg', 'png', 'jpeg'])
-        img2 = img_col2.file_uploader("รูปที่ 2 (ด้านข้าง)", type=['jpg', 'png', 'jpeg'])
+        img2 = img_col2.file_uploader("รูปที่ 2 (ด้านหลัง)", type=['jpg', 'png', 'jpeg'])
         
         img_col3, img_col4 = st.columns(2)
-        img3 = img_col3.file_uploader("รูปที่ 3 (ด้านหลัง)", type=['jpg', 'png', 'jpeg'])
-        img4 = img_col4.file_uploader("รูปที่ 4 (ของกลาง/อื่นๆ)", type=['jpg', 'png', 'jpeg'])
+        img3 = img_col3.file_uploader("รูปที่ 3 (ด้านข้างซ้าย)", type=['jpg', 'png', 'jpeg'])
+        img4 = img_col4.file_uploader("รูปที่ 4 (ด้านข้างขวา)", type=['jpg', 'png', 'jpeg'])
 
     if st.button("🖨️ สร้างบันทึกภาพถ่าย (Word)"):
         try:
